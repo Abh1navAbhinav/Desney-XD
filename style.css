@@ -1,0 +1,142 @@
+/* Modify the background color */
+.navbar-custom {
+	background-color: #520d9c;
+    height: 155px;
+}
+.custom-text-nav{
+    color: white;
+}
+.nav-link.active {
+    color: rgb(255 255 255);
+    font-size:medium;
+    margin-left: 40px;
+    font-weight: 500;
+    border-bottom: 4px  solid transparent;
+   
+
+}
+.nav-link.active:hover{
+    border-bottom:4px solid greenyellow;
+}
+.nav-link.activemain{
+    color: rgb(255 255 255);
+    font-size:medium;
+    margin-left: 1px;
+    font-weight: 500;
+    border-bottom: 4px  solid greenyellow;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 2px;
+   
+}
+.btn.btn-primary{
+     height: 40px;
+     width: 65px;
+     margin-left: 5px;
+    
+}
+
+.off-but{
+    display: none;
+}
+
+
+@media (max-width: 992px){
+    .nav-logo{
+       margin: 0 auto;
+    }
+    .off-but{
+        display: flex;
+    }
+    
+
+}
+
+
+@media (max-width: 992px){
+  
+    .navbar-custom {
+        height: 80px;
+    }
+
+}
+
+#offcanvasRight{
+    background-color: #520d9c;
+    color: white;
+    font-weight: 500;
+    font-size:medium;
+    left: -1px;   
+    transform: none;
+    transform: translatex(100% , 0%);
+    transition:step-start ;
+   
+
+}
+.offcanvas-body:hover{
+        cursor: pointer;
+        color: greenyellow;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.featured{
+    color: #08ee59;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-weight :600 bolder;
+}
+
+.card-img-overlay{
+    top: auto;
+    bottom: 0;
+    padding-bottom: 2px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7651435574229692) 10%, rgba(255,255,255,0) 100%);
+}
+.contenta{
+    color: #08ee59;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-weight :600 bolder;
+   
+}
+
+.small-content{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.above-footer{
+    background-color: #202020;
+    
+   
+}
+.image-scale:hover{
+    cursor: pointer;
+   
+}
+.signin{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+}
+.signin:hover{
+    color: white;
+}
+.sign-in{
+    color:#08ee59;
+
+}
+.sign-in:hover{
+    color:#0ece51;
+
+}
